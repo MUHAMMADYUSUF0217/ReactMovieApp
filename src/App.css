@@ -1,0 +1,30 @@
+.header__nav a {
+  padding: 0 20px;
+  text-decoration: none;
+  
+}
+
+.content {
+  min-height: calc(100vh - 70px - 64px);
+}
+
+.movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+.search-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+label:not(:last-child) {
+  margin-right: 1rem;
+}
+
+
+
+
+
+
+
